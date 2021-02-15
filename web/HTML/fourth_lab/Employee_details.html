@@ -1,0 +1,66 @@
+﻿<html>
+<head>
+<title>Form Methods</title>
+</head>
+<body style="background-color:skyblue">
+<form action="mailto:lnd.in@capgemini.com" name="ab" method="post"
+enctype="multipart/form-data">
+<table border="1">
+<tr>
+<td> Enter the Name </td>
+<td><input type="text" name="name" SIZE="20"  tabindex="1" maxlength="20"> <br> <br> 
+</td>
+</tr>
+<tr>
+    <td> Employee Code </td>
+    <td><input type="number" code="code" SIZE="10"  maxlength="4"> <br> <br> 
+    </td>
+    </tr>
+    <tr>
+        <td> Department </td>
+        <td><input  type="radio" name="s-grp" value="admin"> Admin <br>
+        <input type="radio" name="s-grp" value="hr" checked> HR<br>
+        <input type="radio" name="s-grp" value="technical"> Technical<br>
+        <input type="radio" name="s-grp" value="accounts"> Accounts<BR> <BR> 
+        </td>
+        </tr>
+        <tr>
+            <td>Date of Joining</td>
+           <td><input type="date" name="begin"  placeholder="dd-mm-yyyy" value=""
+        min="2018-01-01" max="2030-12-31"> </td> 
+        </tr> 
+        <tr>
+            <td> Address </td>
+            <td><textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A"></textarea></td>
+        </tr>
+        <tr>
+            <td>Traning Program attended</td>
+            <td>
+                <input type="checkbox" name="s-html/DHTML"> HTML/DHTML<br>
+                <input type="checkbox" name="s-java" checked> Java<br>
+                <input type="checkbox" name="s-.net" checked> .NET<br>
+                <input type="checkbox" name="s-client/server"> Client/Server <br> <br>
+
+            </td>
+            </tr>
+            <tr>
+                <td>Traning program need to attend</td>
+                <td>
+                    <select name="program" id="program">
+                        <option value="javascript">JavaScript</option>
+                        <option value="css">css</option>
+                        <option value="Spring">SpringBoot</option>
+                        <option value="Linux">Linux</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Send the Information at</td>
+                <td><a href="mailto:abc@capgemini.com">abc@capgemini.com</a></td>
+            </tr>
+        </tr>
+
+
+</table>
+</body>
+</html>

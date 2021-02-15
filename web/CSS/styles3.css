@@ -1,0 +1,16 @@
+﻿* {color: skyblue;}
+h1 {color: yellow;}
+div {color: green;}
+p {color: orange;}
+#p1 {
+    background-color: yellow;
+    font-size: large;
+  }
+#p2 {
+    color: violet;
+  }
+#d2 {
+    color: indianred;
+    text-decoration: lavender;
+  }
+  

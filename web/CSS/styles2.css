@@ -1,0 +1,10 @@
+﻿body
+{
+    text-transform: lowercase;
+    text-indent:20%
+    color: #ff8080;
+}
+h1
+{
+    text-shadow: 2px 2px #ff0000;
+}
